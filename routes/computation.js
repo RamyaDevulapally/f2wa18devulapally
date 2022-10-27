@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   var num2= Math.abs(Math.random()*10)
   var num3= Math.abs(Math.random()*10)
 
-  var pow = Math.log2(num1)
+  var log2 = Math.log2(num1)
   var cosh = Math.cosh(num2)
   var floor = Math.floor(num3)
 
